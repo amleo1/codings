@@ -7,14 +7,14 @@
 <p id="demo"></p>
 
 <script>
-var x, txt = "";
+var x, text = "";
 var person = {name:"John", age:50, city:"New York"};
 
 for (x in person) {
-  txt += person[x] + " ";
+  text += person[x] + " ";
 };
 
-document.getElementById("demo").innerHTML = txt;
+document.getElementById("demo").innerHTML = text;
 </script>
 
 </body>

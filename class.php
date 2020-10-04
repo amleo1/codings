@@ -16,6 +16,7 @@ $obj->width = 20;
 // Read the object properties values again to show the change
 echo $obj->length . "<br>";
 echo $obj->width . "<br>";
+echo "<hr>";
  
  
 // Call the object methods

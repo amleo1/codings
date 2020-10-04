@@ -10,8 +10,8 @@ echo $obj->length . "<br>";
 echo $obj->width . "<br>";
  
 // Set object properties values
-$obj->length = 30;
-$obj->width = 20;
+$obj->length = 40;
+$obj->width = 15;
  
 // Read the object properties values again to show the change
 echo $obj->length . "<br>";

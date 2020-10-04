@@ -1,4 +1,4 @@
-let word = "abcdefg"
+let word = "mom"
 
 //Using swift lib
 String(word.characters.reverse()) //"gfedcba"
@@ -15,7 +15,7 @@ func reverseString(wordToReverse: String) -> String {
     }
     return String(reversedWord)
 }
-assert(reverseString(word) == "gfedcba")
+assert(reverseString(word) == "mom")
 
 //Swap in-place, using char array
 func reverseString2(wordToReverse: String) -> String {
@@ -35,4 +35,4 @@ func reverseString2(wordToReverse: String) -> String {
     return String(newWord)
 }
 
-assert(reverseString2(word) == "gfedcba")
+assert(reverseString2(word) == "mom")

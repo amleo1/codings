@@ -21,9 +21,9 @@ int absolute(int var) {
 int main() {
     
     // call function with int type parameter
-    cout << "Absolute value of -5 = " << absolute(-5) << endl;
+    cout << "Absolute value of -3 = " << absolute(-3) << endl;
 
     // call function with float type parameter
-    cout << "Absolute value of 5.5 = " << absolute(5.5f) << endl;
+    cout << "Absolute value of 5.4 = " << absolute(5.4f) << endl;
     return 0;
 }
